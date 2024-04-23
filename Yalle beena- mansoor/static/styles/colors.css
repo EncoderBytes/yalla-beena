@@ -1,0 +1,65 @@
+:root {
+    --main-color: #421695;
+    --main2-color: #D0AB35;
+    --main3-color: #54B7CB;
+    --aboutBg-color: #EEF4F7;
+    --green-color: #6FC27F;
+    --orange-color: #EC7F3E;
+    --text-color:#5D686F;
+  
+  }
+  .test-dark {
+    background-color: rgba(58, 58, 58, 0.575);
+  }
+  
+  .clr1 {
+    background-color: #54B7CB;
+  }
+  
+  .footerClr {
+    background-image: linear-gradient(#452E8D, #5225A9);
+  }
+  
+  .main-bg {
+    background-color: var(--main-color);
+  }
+  
+  .main-txt {
+    color: var(--main-color);
+  }
+  
+  .main2-bg {
+    background-color: var(--main2-color);
+  }
+  
+  .main2-txt {
+    color: var(--main2-color);
+  }
+  
+  .main3-bg {
+    background-color: var(--main3-color);
+  }
+  
+  .main3-txt {
+    color: var(--main3-color);
+  }
+  
+  .green-txt {
+    color: var(--green-color);
+  }
+  
+  .orange-txt {
+    color: var(--orange-color);
+  }
+  
+  .border-main {
+    border: 1px solid var(--main-color);
+  }
+  
+  .border-main2 {
+    border: 1px solid var(--main2-color);
+  }
+  
+  .aboutBg {
+    background-color: var(--aboutBg-color);
+  }
