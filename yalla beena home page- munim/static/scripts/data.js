@@ -55,6 +55,7 @@ let newOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(84, 183, 203, 0.414)"
   },
   {
     id: 2,
@@ -69,6 +70,7 @@ let newOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(237, 197, 66, 0.202)"
   },
   {
     id: 3,
@@ -83,6 +85,7 @@ let newOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(66, 22, 149, 0.288)",
   }
 ]
 
@@ -102,6 +105,7 @@ let specialOffer =
       bar: "50%",
       reservedDevices: "4",
       remaining: "4",
+      bgColor: "rgba(237, 197, 66, 0.202)"
     },
     {
       id: 2,
@@ -116,6 +120,7 @@ let specialOffer =
       bar: "50%",
       reservedDevices: "4",
       remaining: "4",
+      bgColor: "rgba(66, 22, 149, 0.288)",
     }
   ]
 
@@ -135,6 +140,7 @@ let finishedOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(84, 183, 203, 0.414)"
   },
   {
     id: 2,
@@ -149,6 +155,7 @@ let finishedOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(237, 197, 66, 0.202)"
   },
   {
     id: 3,
@@ -163,6 +170,7 @@ let finishedOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(66, 22, 149, 0.288)",
   }
 ]
 // row 3, offers almost finished
@@ -181,6 +189,7 @@ let completeOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(84, 183, 203, 0.414)"
   },
   {
     id: 2,
@@ -195,6 +204,7 @@ let completeOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(237, 197, 66, 0.202)"
   },
   {
     id: 3,
@@ -209,62 +219,63 @@ let completeOffers = [
     bar: "50%",
     reservedDevices: "4",
     remaining: "4",
+    bgColor: "rgba(66, 22, 149, 0.288)",
   }
 ]
 
-    let customerData = [
-      {
-        id: 1,
-        customerImg: "static/imgs/customer1.png",
-        rating: "static/imgs/ratingStars.png",
-        reviewTitle: "A more than wonderful platform",
-        review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
-        customerName: "Mohammed Mustafa",
-        address: "Giza, Egypt"
-      }, {
-        id: 2,
-        customerImg: "static/imgs/customer1.png",
-        customerImg2: "static/imgs/customer1.png",
-        rating: "static/imgs/ratingStars.png",
-        reviewTitle: "A more than wonderful platform",
-        review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
-        customerName: "Mohammed Mustafa",
-        address: "Giza, Egypt"
-      },
-      {
-        id: 3,
-        customerImg: "static/imgs/customer2.png",
-        rating: "static/imgs/ratingStars.png",
-        reviewTitle: "A more than wonderful platform",
-        review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
-        customerName: "Mohammed Mustafa",
-        address: "Giza, Egypt"
-      },
-      {
-        id: 4,
-        customerImg: "static/imgs/customer2.png",
-        rating: "static/imgs/ratingStars.png",
-        reviewTitle: "A more than wonderful platform",
-        review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
-        customerName: "Mohammed Mustafa",
-        address: "Giza, Egypt"
-      },
-      {
-        id: 5,
-        customerImg: "static/imgs/customer1.png",
-        rating: "static/imgs/ratingStars.png",
-        reviewTitle: "A more than wonderful platform",
-        review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
-        customerName: "Mohammed Mustafa",
-        address: "Giza, Egypt"
-      },
-      {
-        id: 6,
-        customerImg: "static/imgs/customer2.png",
-        rating: "static/imgs/ratingStars.png",
-        reviewTitle: "A more than wonderful platform",
-        review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
-        customerName: "Mohammed Mustafa",
-        address: "Giza, Egypt"
-      },
-    ]
+let customerData = [
+  {
+    id: 1,
+    customerImg: "static/imgs/customer1.png",
+    rating: "static/imgs/ratingStars.png",
+    reviewTitle: "A more than wonderful platform",
+    review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
+    customerName: "Mohammed Mustafa",
+    address: "Giza, Egypt"
+  }, {
+    id: 2,
+    customerImg: "static/imgs/customer1.png",
+    customerImg2: "static/imgs/customer1.png",
+    rating: "static/imgs/ratingStars.png",
+    reviewTitle: "A more than wonderful platform",
+    review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
+    customerName: "Mohammed Mustafa",
+    address: "Giza, Egypt"
+  },
+  {
+    id: 3,
+    customerImg: "static/imgs/customer2.png",
+    rating: "static/imgs/ratingStars.png",
+    reviewTitle: "A more than wonderful platform",
+    review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
+    customerName: "Mohammed Mustafa",
+    address: "Giza, Egypt"
+  },
+  {
+    id: 4,
+    customerImg: "static/imgs/customer2.png",
+    rating: "static/imgs/ratingStars.png",
+    reviewTitle: "A more than wonderful platform",
+    review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
+    customerName: "Mohammed Mustafa",
+    address: "Giza, Egypt"
+  },
+  {
+    id: 5,
+    customerImg: "static/imgs/customer1.png",
+    rating: "static/imgs/ratingStars.png",
+    reviewTitle: "A more than wonderful platform",
+    review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
+    customerName: "Mohammed Mustafa",
+    address: "Giza, Egypt"
+  },
+  {
+    id: 6,
+    customerImg: "static/imgs/customer2.png",
+    rating: "static/imgs/ratingStars.png",
+    reviewTitle: "A more than wonderful platform",
+    review: "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator",
+    customerName: "Mohammed Mustafa",
+    address: "Giza, Egypt"
+  },
+]

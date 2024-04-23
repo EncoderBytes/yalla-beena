@@ -1,0 +1,42 @@
+.topNavNameF {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--main-color);
+}
+
+.navinputPlaceholder::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 12px;
+}
+
+.newainputPlaceholder::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 16px;
+  color: var(--headingColor1-color);
+  font-weight: 400;
+}
+
+.hClr1 {
+  color: var(--headingColor1-color);
+  /* font-size: 48px; */
+}
+
+.pClr1 {
+  color: var(--paraColor1-color);
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-8 {
+  font-size: 40px;
+}
+
+.fs-9 {
+  font-size: 48px;
+}

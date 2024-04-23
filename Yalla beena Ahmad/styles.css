@@ -1,0 +1,178 @@
+:root {
+    --main-color: #421695;
+    --main2-color: #D0AB35;
+    --main3-color: #54B7CB;
+    --aboutBg-color: #EEF4F7;
+    --green-color: #6FC27F;
+    --orange-color: #EC7F3E;
+    --featured-color: #FFC107;
+    --yellow-color: #EDC442;
+    --purchase-color: #F4EEFF;
+    --headingColor1-color: #383F50;
+    --paraColor1-color: #6E737F;
+  }
+  
+  .test-dark {
+    background-color: rgba(58, 58, 58, 0.575);
+  }
+  
+  .clr1 {
+    background-color: #54B7CB;
+  }
+  
+  .footerClr {
+    background-image: linear-gradient(#452E8D, #5225A9);
+  }
+  
+  .main-bg {
+    background-color: var(--main-color);
+  }
+  
+  .main-txt {
+    color: var(--main-color);
+  }
+  
+  .main2-bg {
+    background-color: var(--main2-color);
+  }
+  
+  .purchase-bg {
+    background-color: var(--purchase-color);
+  }
+  
+  .main2-txt {
+    color: var(--main2-color);
+  }
+  
+  .main3-bg {
+    background-color: var(--main3-color);
+  }
+  
+  .main3-txt {
+    color: var(--main3-color);
+  }
+  
+  .yellow-txt {
+    color: var(--yellow-color);
+  }
+  
+  .green-txt {
+    color: var(--green-color);
+  }
+  
+  .orange-txt {
+    color: var(--orange-color);
+  }
+  
+  .featured-bg {
+    background-color: var(--featured-color);
+  }
+  
+  .border-main {
+    border: 1px solid var(--main-color);
+  }
+  
+  .border-main2 {
+    border: 1px solid var(--main2-color);
+  }
+  
+  .aboutBg {
+    background-color: var(--aboutBg-color);
+  }
+  
+  .gray-image {
+    filter: grayscale(100%);
+  }
+  
+  
+  /*  */
+
+
+
+ .btnBlueOutline {
+  border: 1px solid #4892C4;
+  width: 100%;
+  /* Adjust the width as needed */
+  max-width: 290px;
+  /* Limit the maximum width */
+  height: auto;
+  /* Let the height adjust based on content */
+  min-height: 64px;
+  /* Ensure a minimum height */
+  background-color: #EFFCFF;
+  border-radius: 10px;
+  color: #4892C4;
+}
+
+.btnBlueOutline:hover {
+  background-color: #4892C4;
+  border-radius: 10px;
+  color: #EFFCFF;
+}
+
+.btnYellowOutline {
+  border: 1px solid #EEBC31;
+  width: 100%;
+  /* Adjust the width as needed */
+  max-width: 290px;
+  /* Limit the maximum width */
+  height: auto;
+  /* Let the height adjust based on content */
+  min-height: 64px;
+  /* Ensure a minimum height */
+  background-color: #FFFDF6;
+  border-radius: 10px;
+  color: #EEBC31;
+}
+
+.btnYellowOutline:hover {
+  background-color: #EEBC31;
+  border-radius: 10px;
+  color: #FFFDF6;
+}
+
+.btnFilledBlue {
+  width: 100%;
+  /* Adjust the width as needed */
+  max-width: 275px;
+  min-width: 256px;
+  /* Limit the maximum width */
+  height: auto;
+  /* Let the height adjust based on content */
+  min-height: 56px;
+  /* Ensure a minimum height */
+  background-color: var(--main-color);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btnFilledBlue:hover {
+  background-color: #fff;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.btnFilledWhite {
+  width: 100%;
+  /* Adjust the width as needed */
+  max-width: 275px;
+  min-width: 256px;
+  /* Limit the maximum width */
+  height: auto;
+  /* Let the height adjust based on content */
+  min-height: 56px;
+  /* Ensure a minimum height */
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #5D686F;
+  border-radius: 10px;
+  color: #5D686F;
+}
+
+.btnFilledWhite:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+}

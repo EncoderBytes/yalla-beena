@@ -19,7 +19,8 @@ newOffers.forEach(offer => {
     offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-3');
 
     offerDiv.innerHTML = `
-        <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3">
+        <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3"
+        style="background-color: ${offer.bgColor};">
             <p class="ms-2 pt-1">The Remaining time:</p>
             <div class="mb-0">
                 <p class="mb-1 blurBlackBg">${offer.timeLeft.split(',')[2]}</p>
@@ -38,7 +39,7 @@ newOffers.forEach(offer => {
         </div>
 
         <div class = "bg-white px-3 mb-4">
-        <h3 class="pt-2 hClr1 fs-5 fw-semibold">${offer.title}</h3>
+        <h3 class="pt-2 fs-5 fw-semibold">${offer.title}</h3>
 
         <div class="d-flex gap-2 mb-2">
             <div class="traderLogoBg">
@@ -62,7 +63,7 @@ newOffers.forEach(offer => {
         </div>
 
         <div class="">
-            <p class="mb-0 fs-12">Offer price: <span class="offer main-txt fw-bold fs-6">${offer.offerPrice}</span> <span class="">(For the device inside the display)</span></p>
+            <p class="mb-0 fs-12">Offer price: <span class="offer main-txt fw-bold fs-6">${offer.offerPrice}</span> <span class="fw-semibold">(For the device inside the display)</span></p>
             <p class="fs-12">The original price: <span class="text-black fw-semibold">${offer.originalPrice}</span></p>
         </div>
 
@@ -85,14 +86,13 @@ newOffers.forEach(offer => {
     rowContainer.appendChild(offerDiv);
 });
 
-// Special offers row 2
 const row = document.getElementById('row2');
 
 specialOffer.forEach(offer => {
     const offerDiv = document.createElement('div');
     offerDiv.classList.add('col-xl-5', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'px-0', 'mb-4', 'ms-3');
     offerDiv.innerHTML = `
-        <div class=" list-card-top d-flex align-items-start justify-content-between gap-3 text-center position-relative mb-14 p-3 bg-success">
+        <div class=" list-card-top d-flex align-items-start justify-content-between gap-3 text-center position-relative mb-14 p-3" style="background-color: ${offer.bgColor};">
             <div class="d-flex align-items-center justify-content-center">
                 <button class= "d-flex align-items-center justify-content-center gap-1 featuredBtn"><p class="mb-0">Featured Ad</p>
                 <i class="fa-solid fa-star text-white "></i>  </button>
@@ -172,6 +172,7 @@ specialOffer.forEach(offer => {
     row.appendChild(offerDiv);
 });
 
+
 // row 3
 const rowContainer3 = document.getElementById('row3');
 finishedOffers.forEach(offer => {
@@ -181,7 +182,7 @@ finishedOffers.forEach(offer => {
 
     // Construct the HTML content for the offer
     offerDiv.innerHTML = `
-        <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3">
+        <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3" style="background-color: ${offer.bgColor};">
         <p class="ms-2 pt-1">The Remaining time:</p>
         <div class="mb-0">
             <p class="mb-1 blurRedBg">${offer.timeLeft.split(',')[2]}</p>
@@ -254,7 +255,7 @@ finishedOffers.forEach(offer => {
     offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-5');
 
     offerDiv.innerHTML = `
-        <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3">
+        <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3"  style="background-color: ${offer.bgColor};">
         <p class="ms-2 pt-1">The Remaining time:</p>
         <div class="mb-0">
             <p class="mb-1 blurBlackBg">${offer.timeLeft.split(',')[2]}</p>
