@@ -1,20 +1,30 @@
+@font-face {
+  font-family: myFont;
+  src: url(../font/myFont.ttf);
+}
+
+body {
+  font-family: myFont;
+}
+
 .topNavNameF {
   font-weight: 500;
   font-size: 12px;
   color: var(--main-color);
-}
+} 
 
 .navinputPlaceholder::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-.newainputPlaceholder::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  font-size: 16px;
+/* .newainputPlaceholder::-webkit-input-placeholder {
+  font-size: 13336px;
   color: var(--headingColor1-color);
   font-weight: 400;
-}
+  background: red;
+} */
 
 .hClr1 {
   color: var(--headingColor1-color);
@@ -35,4 +45,8 @@
 
 .fs-9 {
   font-size: 48px;
+}
+
+.fs-14{
+  font-size: 14px;
 }

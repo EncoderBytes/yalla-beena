@@ -2,22 +2,22 @@
 const rowContainer = document.getElementById('row1');
 newOffers.forEach(offer => {
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-3');
+    offerDiv.classList.add('col-xl-4', 'col-lg-4', 'col-md-6', 'col-sm-12', 'col-12', 'py-3');
 
     offerDiv.innerHTML = `
         <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3"  style="background-color: ${offer.bgColor};">
             <p class="ms-2 pt-1">The Remaining time:</p>
             <div class="mb-0">
-                <p class="mb-1 blurBlackBg">${offer.timeLeft.split(',')[2]}</p>
+                <p class="mb-1 blurBlackBg fw-semibold">${offer.timeLeft.split(',')[2]}</p>
                 <p class="mb-0 fs-12 fw-semibold">Minute</p>
             </div>
 
             <div class="mb-0">
-                <p class="mb-0 mb-1 blurBlackBg">${offer.timeLeft.split(',')[1]}</p>
+                <p class="mb-0 mb-1 blurBlackBg fw-semibold">${offer.timeLeft.split(',')[1]}</p>
                 <p class="mb-0  fs-12 fw-semibold">Hour</p>
             </div>
             <div class="mb-0">
-                <p class="mb-0 mb-1 blurBlackBg">${offer.timeLeft.split(',')[0]}</p>
+                <p class="mb-0 mb-1 blurBlackBg fw-semibold">${offer.timeLeft.split(',')[0]}</p>
                 <p class="mb-0  fs-12 fw-semibold">Day</p>
             </div>
             <img src="${offer.prodImg}" class="img-fluid list-card-img position-absolute" alt="">
@@ -56,8 +56,8 @@ newOffers.forEach(offer => {
             <div class="progress-bar overflow-visible custom-progress-bar" style="width: ${offer.bar}">50%</div>
         </div>
 
-        <div class="d-flex align-items-center justify-content-center mt-2 mb-3">
-            <img src="static/imgs/grpImg.png" class="img-fluid mb-0" alt="">
+        <div class="d-flex align-items-center justify-content-center mt-2 mb-3 gap-2">
+            <img src="static/imgs/grpImg.svg" class="img-fluid mb-0" alt="">
             <p class="mb-0 fs-12 fw-semibold" style="line-height: 13px;">Number of devices reserved within the offer (${offer.reservedDevices}) - remaining (${offer.remaining})</p>
         </div>
 
@@ -76,9 +76,9 @@ const row = document.getElementById('row2');
 
 specialOffer.forEach(offer => {
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-5', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'px-0', 'mb-4', 'ms-3');
+    offerDiv.classList.add('col-xl-5', 'col-lg-6', 'col-md-10', 'col-sm-12', 'col-12', 'px-0', 'mb-4', 'ms-autoxxx');
     offerDiv.innerHTML = `
-        <div class=" list-card-top d-flex align-items-start justify-content-between gap-3 text-center position-relative mb-14 p-3" style="background-color: ${offer.bgColor};">
+        <div class=" list-card-top d-flex align-items-start justify-content-between gap-3 text-center position-relative mb-14 p-3 ms-4" style="background-color: ${offer.bgColor};">
             <div class="d-flex align-items-center justify-content-center">
                 <button class= "d-flex align-items-center justify-content-center gap-1 featuredBtn"><p class="mb-0">Featured Ad</p>
                 <i class="fa-solid fa-star text-white "></i>  </button>
@@ -91,7 +91,7 @@ specialOffer.forEach(offer => {
         </div>
 
 
-        <div class = "bg-white px-3 mb-4">
+        <div class = "bg-white px-3 mb-4 ms-4">
         <h3 class="hClr1 fs-5 fw-semibold">${offer.title}</h3>
 
 <div class= "d-flex justify-content-between align-items-center">
@@ -163,7 +163,7 @@ const rowContainer3 = document.getElementById('row3');
 SimilarOffers.forEach(offer => {
     // Create a div element to hold the offer details
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-5');
+    offerDiv.classList.add('col-xl-4', 'col-lg-4', 'col-md-6', 'col-sm-12', 'col-12', 'py-3');
 
     // Construct the HTML content for the offer
     offerDiv.innerHTML = `
@@ -219,7 +219,7 @@ SimilarOffers.forEach(offer => {
         </div>
 
         <div class="d-flex align-items-center justify-content-center mt-2 mb-3">
-            <img src="static/imgs/grpImg.png" class="img-fluid mb-0" alt="">
+            <img src="static/imgs/grpImg.svg" class="img-fluid mb-0" alt="">
             <p class="mb-0 fs-12 fw-semibold" style="line-height: 13px;">Number of devices reserved within the offer (${offer.reservedDevices}) - remaining (${offer.remaining})</p>
         </div>
 
@@ -236,7 +236,7 @@ SimilarOffers.forEach(offer => {
 const rowContainer4 = document.getElementById('row4');
 newOffers.forEach(offer => {
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-5');
+    offerDiv.classList.add('col-xl-4', 'col-lg-4', 'col-md-6', 'col-sm-12', 'col-12', 'py-3');
 
     offerDiv.innerHTML = `
         <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3" style="background-color: ${offer.bgColor};">
@@ -291,7 +291,7 @@ newOffers.forEach(offer => {
         </div>
 
         <div class="d-flex align-items-center justify-content-center mt-2 mb-3">
-            <img src="static/imgs/grpImg.png" class="img-fluid mb-0" alt="">
+            <img src="static/imgs/grpImg.svg" class="img-fluid mb-0" alt="">
             <p class="mb-0 fs-12 fw-semibold" style="line-height: 13px;">Number of devices reserved within the offer (${offer.reservedDevices}) - remaining (${offer.remaining})</p>
         </div>
 

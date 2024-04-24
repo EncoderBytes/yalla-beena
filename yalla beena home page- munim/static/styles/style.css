@@ -46,8 +46,8 @@
 }
 
 .special-card-img {
-  top: 15%;
-  left: 28%;
+  top: 25%;
+  left: 26%;
 }
 
 .borderMainNav {
@@ -65,9 +65,10 @@
 .navShadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-  .logo{
-    width: 9%;
-  }
+
+.logo {
+  width: 12%;
+}
 
 .blurBlackBg {
   width: 34px;
@@ -157,9 +158,6 @@
   min-width: 110px;
   font-size: 16px;
   font-weight: 500;
-}
-.news-image{
-  width: 100%;
 }
 
 footer ul {

@@ -1,0 +1,250 @@
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/basfonts.ttf);
+}
+
+body {
+  font-family: myFont;
+} 
+/* col-xl-3 col-lg-5 col-md-5 col-sm-7 col-12 */
+.nav-bell {
+  width: 20px;
+  height: 25px;
+}
+
+.logo {
+  width: 9%;
+}
+
+.nav-user-img {
+  width: 40px;
+  height: 40px;
+}
+
+.ms-10 {
+  margin-left: 200px;
+}
+
+.mb-14 {
+  margin-bottom: 140px;
+}
+
+.mb-7 {
+  margin-bottom: 70px;
+}
+
+.outline-none {
+  outline: none !important;
+}
+
+.border-none {
+  border: none;
+  background-color: #fff;
+}
+
+.w-search-nav-bottom {
+  width: 393px;
+}
+
+.list-card-top {
+  height: 157px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.list-card-img {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.special-card-img {
+  top: 15%;
+  left: 28%;
+}
+
+.borderMainNav {
+  border: 1px solid var(--main-color);
+}
+
+.bordermain {
+  border: 2px solid var(--main-color);
+}
+
+.borderStartNav {
+  border-left: 1px solid var(--main3-color);
+}
+
+.navShadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.blurBlackBg {
+  width: 34px;
+  height: 32px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d686f2b;
+}
+
+.blurBlackBgDeal {
+  width: 82px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d686f2b;
+}
+
+.blurRedBg {
+  width: 34px;
+  height: 32px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #be38384b;
+  color: #BE3838;
+}
+
+.colorRed {
+  color: #BE3838;
+}
+
+.traderLogoBg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d686f57;
+}
+
+.custom-progress-bar {
+  /* height: 18px; */
+  font-weight: bold;
+  display: flex;
+  /* color: wh; */
+  justify-content: center;
+  align-items: end;
+  border-radius: 60px;
+  background-image: linear-gradient(to right, #452E8D, #54B7CB);
+}
+
+.movingArrow {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.featuredBtn {
+  background-color: var(--featured-color);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #fff;
+  width: 129px;
+  height: 32px;
+}
+
+
+.placeholder-at-end::placeholder {
+  text-align: right;
+  direction: rtl;
+}
+
+.newsInput {
+  height: 56px;
+  border-radius: 8px;
+  border: 0.5px solid #5D686F;
+}
+
+.newsInputBtn {
+  height: 56px;
+  border-radius: 8px;
+  background-color: #452E8D;
+  color: #fff;
+  border: none;
+  outline: none;
+  min-width: 110px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+  /* Adjust as needed */
+}
+
+footer li::before {
+  content: "•";
+  color: white;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hide the image on desktop and iPad screens */
+@media (min-width: 768px) {
+  .bottomNav {
+    display: none;
+  }
+}
+
+/* Make the image visible on mobile screens */
+@media (max-width: 767px) {
+  .bottomNav {
+    display: block;
+    width: 100%; /* Ensure the image takes full width */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+}
+
+
+/* Hide the nav on mobile screens */
+@media (max-width: 767px) {
+  .navbar.bottom-bar {
+    display: none;
+  }
+}
+
+/* Change nav background color to blue on mobile screens */
+@media (max-width: 767px) {
+  .navtop {
+    background-color: var(--main-color);
+    color: #fff;
+  }
+
+  .navtop li a{
+    color: #fff;
+  }
+
+  .logo {
+    content: url('../diffImgs/footerLogo.png');
+  }   
+
+  .topNavNameF{
+    color: #fff;
+  }
+
+  .borderMainNav{
+    border: 1px solid white ;
+  }
+}

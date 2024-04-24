@@ -1,0 +1,46 @@
+// row 1, new offers
+
+let newOffers = [
+    {
+      id: 1,
+      timeLeft: "6,16,55",
+      prodImg: "static/imgs/pngwing 16.png",
+      title: "LG double door refrigerator with smart interface...",
+      traderLogo: "static/imgs/companylogo.png",
+      tradderName: "Al-Rowad Trading Company",
+      brandImg: "static/imgs/LG_logo.png",
+      offerPrice: "65,000 EGP",
+      originalPrice: "65,000 EGP",
+      bar: "50%",
+      reservedDevices: "4",
+      remaining: "4",
+    },
+    {
+      id: 2,
+      timeLeft: "6,16,55",
+      prodImg: "static/imgs/pngwing.png",
+      title: "LG double door refrigerator with smart interface...",
+      traderLogo: "static/imgs/companylogo.png",
+      tradderName: "Al-Rowad Trading Company",
+      brandImg: "static/imgs/LG_logo.png",
+      offerPrice: "65,000 EGP",
+      originalPrice: "65,000 EGP",
+      bar: "50%",
+      reservedDevices: "4",
+      remaining: "4",
+    },
+    {
+      id: 3,
+      timeLeft: "6,16,55",
+      prodImg: "static/imgs/pngwing.png",
+      title: "LG double door refrigerator with smart interface...",
+      traderLogo: "static/imgs/companylogo.png",
+      tradderName: "Al-Rowad Trading Company",
+      brandImg: "static/imgs/LG_logo.png",
+      offerPrice: "65,000 EGP",
+      originalPrice: "65,000 EGP",
+      bar: "50%",
+      reservedDevices: "4",
+      remaining: "4",
+    }
+  ]

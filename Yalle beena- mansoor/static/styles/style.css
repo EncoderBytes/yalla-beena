@@ -57,7 +57,7 @@
     border-left: 1px solid var(--main3-color);
   }
   .nav-logo{
-    width: 10%;
+    width: 9%;
   }
   .navShadow{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -98,7 +98,7 @@
     color: #5D686F;
   }
   /* .account-img{
-    width: 20px;
+    width: 100%;
   } */
   .main-txt{
     color: #421695;
@@ -178,7 +178,7 @@
     pointer-events: none;
 }
 .form-button{
-    margin-top: 80px;
+    margin-top: 70px;
 }
 .form-button button{
     padding: 10px 30px;
@@ -216,13 +216,66 @@
   font-size: 15px;
 }
 /* Mobile view of index */
+.mob-nav{
+  background-color: var(--main-color);
+}
 .mob-img img{
-  width: 20%;
-  margin: 0 auto;
-  align-items: center; 
+  width: 30%;
+  /* margin: 0 auto; */
+  /* align-items: center;  */
+  /* background-color: #fff; */
+}
+.mob-input{
+  padding: 13px 40px;
+}
+@media (max-width: 767px) {
+  .bottomNav {
+    display: block;
+    width: 100%; /* Ensure the image takes full width */
+    margin: 20px auto; /* Center the image horizontally */
+  }
 }
 
 
 
 
+/* ********************************** */
+/* Wallet */
+.wallet-row{
+  background-color: #FFFFFF;
+  box-shadow: 2px 6px 4px 0px #0000000A;
+  border-radius:12px ;
+}
+
+.fs-12{
+  font-size: 13px;
+  font-weight: 500;
+}
+.inv-link{
+  color: #41885A;
+  font-size: 14px;
+  font-weight: 500;
+}
+.time-clr{
+color: #515151;
+font-size: 11px;
+font-weight: 400;
+}
+
+.btnFilledBlue {
+  width: 100%;
+  /* Adjust the width as needed */
+  max-width: 275px;
+  min-width: 256px;
+  /* Limit the maximum width */
+  height: auto;
+  /* Let the height adjust based on content */
+  min-height: 56px;
+  /* Ensure a minimum height */
+  background-color: var(--main-color);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
 

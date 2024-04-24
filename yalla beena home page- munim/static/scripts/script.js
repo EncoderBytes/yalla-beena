@@ -2,7 +2,7 @@ const productContainer = document.getElementById('productContainer');
 
 productData.forEach(data => {
     const prodDiv = document.createElement('div');
-    prodDiv.classList.add('col-xl-2', 'col-lg-3', 'col-md-3', 'col-sm-5', 'col-6', 'text-center', 'rounded-4', 'p-4', 'bg-white', 'my-2');
+    prodDiv.classList.add('col-xl-2', 'col-lg-4', 'col-md-4', 'col-sm-4', 'col-6', 'text-center', 'rounded-4', 'p-4', 'bg-white', 'my-2', 'm-auto');
 
     prodDiv.innerHTML = `
     <img src="${data.ProdImg}" alt="" class="img-fluid mb-2">
@@ -16,7 +16,7 @@ productData.forEach(data => {
 const rowContainer = document.getElementById('row1');
 newOffers.forEach(offer => {
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-3');
+    offerDiv.classList.add('col-xl-4', 'col-lg-4', 'col-md-6', 'col-sm-10', 'col-10', 'py-3', 'm-auto');
 
     offerDiv.innerHTML = `
         <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3"
@@ -90,9 +90,9 @@ const row = document.getElementById('row2');
 
 specialOffer.forEach(offer => {
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-5', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'px-0', 'mb-4', 'ms-3');
+    offerDiv.classList.add('col-xl-5', 'col-lg-6', 'col-md-10', 'col-sm-12', 'col-12', 'px-0', 'mb-4');
     offerDiv.innerHTML = `
-        <div class=" list-card-top d-flex align-items-start justify-content-between gap-3 text-center position-relative mb-14 p-3" style="background-color: ${offer.bgColor};">
+        <div class=" list-card-top d-flex align-items-start justify-content-between gap-3 text-center position-relative mb-14 p-3 ms-4" style="background-color: ${offer.bgColor};">
             <div class="d-flex align-items-center justify-content-center">
                 <button class= "d-flex align-items-center justify-content-center gap-1 featuredBtn"><p class="mb-0">Featured Ad</p>
                 <i class="fa-solid fa-star text-white "></i>  </button>
@@ -105,7 +105,7 @@ specialOffer.forEach(offer => {
         </div>
 
 
-        <div class = "bg-white px-3 mb-4">
+        <div class = "bg-white px-3 mb-4 ms-4">
         <h3 class="hClr1 fs-5 fw-semibold">${offer.title}</h3>
 
 <div class= "d-flex justify-content-between align-items-center">
@@ -178,7 +178,7 @@ const rowContainer3 = document.getElementById('row3');
 finishedOffers.forEach(offer => {
     // Create a div element to hold the offer details
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-5');
+    offerDiv.classList.add('col-xl-4', 'col-lg-4', 'col-md-6', 'col-sm-10', 'col-10', 'py-5', 'm-auto');
 
     // Construct the HTML content for the offer
     offerDiv.innerHTML = `
@@ -252,7 +252,7 @@ finishedOffers.forEach(offer => {
 const rowContainer4 = document.getElementById('row4');
 finishedOffers.forEach(offer => {
     const offerDiv = document.createElement('div');
-    offerDiv.classList.add('col-xl-4', 'col-lg-5', 'col-md-5', 'col-sm-7', 'col-12', 'py-5');
+    offerDiv.classList.add('col-xl-4', 'col-lg-4', 'col-md-6', 'col-sm-10', 'col-10', 'py-5', 'm-auto');
 
     offerDiv.innerHTML = `
         <div class="clr1 list-card-top d-flex align-items-start justify-content-start gap-2 text-center position-relative mb-7 p-3"  style="background-color: ${offer.bgColor};">
@@ -332,12 +332,12 @@ function renderCarouselItems() {
         let item = `
         <div class="carousel-item ${activeClass}">
           <div class="row m-auto" id="custRew">
-            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-7 col-12">
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7 col-12">
               <div class="">
-                <img src="${customer.customerImg}" alt="Customer Image">
+                <img src="${customer.customerImg}" alt="Customer Image" class="img-fluid">
               </div>
             </div>
-            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-7 col-12">
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7 col-12">
               <div class="rating">
                 <img src="${customer.rating}" alt="Rating">
               </div>
@@ -351,12 +351,12 @@ function renderCarouselItems() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-7 col-12">
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7 col-12">
               <div class="">
-                <img src="${customer.customerImg}" alt="Customer Image">
+                <img src="${customer.customerImg}" alt="Customer Image" class="img-fluid">
               </div>
             </div>
-            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-7 col-12">
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7 col-12">
               <div class="rating">
                 <img src="${customer.rating}" alt="Rating">
               </div>

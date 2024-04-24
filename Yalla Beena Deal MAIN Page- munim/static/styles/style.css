@@ -5,7 +5,7 @@
 }
 
 .logo {
-  width: 9%;
+  width: 12%;
 }
 
 .nav-user-img {
@@ -50,8 +50,8 @@
 }
 
 .special-card-img {
-  top: 15%;
-  left: 28%;
+  top: 25%;
+  left: 26%;
 }
 
 .borderMainNav {
@@ -81,7 +81,7 @@
 }
 
 .blurBlackBgDeal {
-  width: 82px;
+  width: 87px;
   height: 48px;
   border-radius: 12px;
   display: flex;

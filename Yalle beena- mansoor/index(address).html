@@ -14,11 +14,12 @@
     <!-- styles -->
     <link rel="stylesheet" href="static/styles/style.css">
     <link rel="stylesheet" href="static/styles/colors.css">
+    <link rel="stylesheet" href="static/styles/style1.css">
 
 </head>
 <body>
         <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navtop">
     <div class="container">
       <img src="static/imgs/mainLogo.png" class="img-fluid nav-logo" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarContent"
@@ -167,10 +168,14 @@
 
   <!-- section 1 -->
   <div class="container ">
+    <div class="vex-img mt-4">
+      <img src="static/imgs/Vector (2).png" alt="">
+  </div>
     <p class="dash-txt1 mt-5">Add a new address</p>
     <div class="row">
-        <div class="col-md-6">
-            <form action="post" class="form">
+     
+        <div class="col-12 col-sm-12 col-md-6">
+            <form action="post" class="form mt-3">
                 <!-- 1st row -->
                             <label for="name"  class="label-txt">Delivery Address</label>
                             <div class="form-group">
@@ -216,16 +221,18 @@
                   </div>    
                 
                                         <div class="row form-button d-flex justify-content-between">
-                                            <button class="back ">Back</button>
+                                            <button class="back">Back</button>
                                             <button class="keep">Keep</button>
                                         </div>
                             </form>
         </div>
-        <div class="col-md-6">
-            <div class="content">
-               <img src="static/imgs/Group 1410108006.png" alt="">
-            </div>
-        </div>
+      
+        <div class="col-12 col-sm-12 col-md-6">
+          <div class="embed-responsive embed-responsive-16by9 add-img">
+              <img src="static/imgs/Group 1410108006.png" alt="" class="img-fluid">
+          </div>
+      </div>
+
     </div>
 </div>
 
@@ -233,7 +240,9 @@
 
 
 
-
+<div class="">
+  <img src="static/imgs/Nav bar.png " alt="" class="img-fluid bottomNav">
+</div>
 
     
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
