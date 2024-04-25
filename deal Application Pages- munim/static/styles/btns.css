@@ -40,21 +40,50 @@
   color: #FFFDF6;
 }
 
-.btnFilledBlue {
-  width: 100%;
-  /* Adjust the width as needed */
-  max-width: 275px;
-  min-width: 256px;
-  /* Limit the maximum width */
+.btnYellowOutline2 {
+  border: 1px solid #EEBC31;
+  width: 190px;
   height: auto;
-  /* Let the height adjust based on content */
   min-height: 56px;
-  /* Ensure a minimum height */
+  background-color: #FFFDF6;
+  border-radius: 10px;
+  color: #EEBC31;
+}
+
+.btnYellowOutline2:hover {
+  background-color: #EEBC31;
+  border-radius: 10px;
+  color: #FFFDF6;
+}
+
+.btnFilledBlue2 {
+  width: 190px;
+  height: auto;
+  min-height: 56px;
   background-color: var(--main-color);
+  color: #fff;
   outline: none;
   border: none;
   border-radius: 10px;
+}
+
+.btnFilledBlue2:hover {
+  background-color: #fff;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.btnFilledBlue {
+  width: 100%;
+  max-width: 275px;
+  min-width: 236px;
+  height: auto;
+  min-height: 56px;
+  background-color: var(--main-color);
   color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
 }
 
 .btnFilledBlue:hover {
@@ -67,7 +96,7 @@
   width: 100%;
   /* Adjust the width as needed */
   max-width: 275px;
-  min-width: 256px;
+  min-width: 236px;
   /* Limit the maximum width */
   height: auto;
   /* Let the height adjust based on content */

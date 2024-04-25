@@ -152,6 +152,14 @@
   direction: rtl;
 }
 
+.page6::placeholder {
+  text-align: center;
+}
+
+.ljdj::placeholder {
+  color: red;
+}
+
 .newsInput {
   height: 56px;
   border-radius: 8px;
@@ -195,6 +203,21 @@
   /* Set the height of the div */
   border-radius: 24px;
 }
+
+.newImg3 {
+  background-image: url('../diffImgs/Group\ 237712.svg');
+  /* Path to your image */
+  background-size: cover;
+  /* Cover the entire background */
+  background-position: center;
+  /* Center the background image */
+  width: 100%;
+  /* Set the width of the div */
+  height: 100vh;
+  /* Set the height of the div */
+  border-radius: 24px;
+}
+
 
 
 footer ul {
